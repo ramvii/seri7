@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main() {
+int x;
+printf("enter amount of x:");
+scanf("%d",&x);
+int a;
+a=x/100;
+x-=a*100;
+int b;
+b=x/20;
+x-=b*20;
+int c;
+c=x/10;
+x-=c*10;
+int d;
+d=x/5;
+x-=d*5;
+if(a!=0){
+    printf("100:%d",a);
+}
+if(b!=0){
+    printf(",20:%d",b);
+}
+if(c!=0){
+    printf(",10:%d",c);
+}
+if(d!=0){
+    printf (",5:%d",d);
+}
+if(x!=0){
+    printf(",1:%d",x);
+}
+}
