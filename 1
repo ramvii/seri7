@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int a,b;
+printf("enter a number:");
+scanf("%d",&a);
+while(1)
+{
+    printf("enter a number:");
+scanf("%d",&a);
+if(a==0)
+{
+    break;
+}
+else if(a>b)
+{
+b=a;
+}
+}
+printf("max number is :%d",b);
+}
